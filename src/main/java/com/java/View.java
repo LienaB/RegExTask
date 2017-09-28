@@ -2,11 +2,9 @@ package com.java;
 
 import java.util.regex.Pattern;
 
-/**
- * Created by Liena_Bondarenko on 9/27/2017.
- */
 public class View {
     public static final String INPUT = "New contact adding";
+    public static final String INPUT_CORRECT_NAME = "Name must be in range 2 - 50 symbols.";
     public static final String INPUT_FNAME = "Please input name: ";
     public static final String INPUT_LNAME = "Please input surname: ";
     public static final String INPUT_NICKNAME = "Please input nickname: ";

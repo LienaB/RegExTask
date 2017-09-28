@@ -1,8 +1,7 @@
 package com.java;
 
-/**
- * Created by Liena_Bondarenko on 9/27/2017.
- */
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -10,6 +9,8 @@ public class Main {
         View view = new View();
         Controller controller = new Controller(model, view);
 
-        //controller.guessingSecretNumber();
+        controller.phoneBook();
+
+        System.out.println(model.contactsList.size());
     }
 }
