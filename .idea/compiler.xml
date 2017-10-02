@@ -27,8 +27,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="RegExpProject" target="1.8" />
-      <module name="TaskRegExp" target="1.5" />
+      <module name="TaskRegExp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
